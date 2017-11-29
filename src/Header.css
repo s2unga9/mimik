@@ -1,0 +1,17 @@
+.header-top {
+    display: flex;
+    background-color: pink;
+    color: white;
+    flex-direction: flex-start;
+    padding: 10px;
+}
+
+.header-logo {
+    display: flex;
+    align-content: center;
+}
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
