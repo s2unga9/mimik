@@ -9,24 +9,24 @@ class Header extends Component {
                     <span>Boutique de Masques en tissu Coréen</span>
                 </div>
                 <div className='header-logo'>
-                    <img src="" alt="Mimik_logo" />
+                    <span>mimik</span>
                 </div>
-                <div className='header-menu'>
-                    <ul>
-                        <li>PRODUCTS</li>
-                        <li>COMMENT UTILISER?</li>
-                        <li>CONTACTEZ-NOUS</li>
-                        <li>INSCRIPTION</li>
-                        <li>REVIEW</li>
-                        <li><img src="" alt="cart" /></li>
-                        <li><img src="" alt="instagram" /></li>
-                    </ul>
-                </div>
+                <ul className='header-menus'>
+                    <li className='header-menu'>PRODUCTS</li>
+                    <li className='header-menu'>COMMENT UTILISER?</li>
+                    <li className='header-menu'>CONTACTEZ-NOUS</li>
+                    <li className='header-menu'>INSCRIPTION</li>
+                    <li className='header-menu'>REVIEW</li>
+                    <li className='header-icon'>
+                        <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+                    </li>
+                    <li className='header-icon'>
+                        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                    </li>
+                </ul>
             </div>
         )
     }
 }
-
-
 
 export default Header;
