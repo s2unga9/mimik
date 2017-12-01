@@ -3,6 +3,8 @@ import './App.css';
 
 import Header from './Header';
 import Product from './Product';
+import ContactUs from './ContactUs';
+
 
 
 const products = [
@@ -14,8 +16,6 @@ const products = [
 ];
 
 
-
-
 class App extends Component {
   render() {
     return (
@@ -23,10 +23,15 @@ class App extends Component {
         <Header />
         {products.map((products, index) =>
           <Product key={index} title={products.name} price={products.price} img_url={products.img_url} />
-        )}}
+        )}
+
+        <ContactUs />
       </div>
     );
   }
 }
+
+
+
 
 export default App;
