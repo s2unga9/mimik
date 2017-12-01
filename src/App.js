@@ -15,17 +15,20 @@ const products = [
 ];
 
 
+
+
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        {/* <Header />
         {products.map((products, index) =>
           <Product key={index} title={products.name} price={products.price} img_url={products.img_url} />
-        )}}
+        )}} */}
         <HowToUse/>
       </div>
-    );
+    )
   }
 }
 
