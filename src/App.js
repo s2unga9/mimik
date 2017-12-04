@@ -3,6 +3,7 @@ import './App.css';
 
 import Header from './Header';
 import Product from './Product';
+import ContactUs from './ContactUs';
 import HowToUse from './How_to_use';
 
 
@@ -22,11 +23,16 @@ class App extends Component {
         <Header />
         {products.map((products, index) =>
           <Product key={index} title={products.name} price={products.price} img_url={products.img_url} />
-        )}} 
+        )}
+
         <HowToUse/>
+        <ContactUs />
       </div>
     )
   }
 }
+
+
+
 
 export default App;

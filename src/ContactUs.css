@@ -1,0 +1,35 @@
+.ContactUs{
+    background-color: #F8F88F; 
+    padding: 60px 50px 60px 50px;
+}
+.ContactUs h1{
+    font-size: 27px;
+    padding-bottom: 15px;
+    color: rgb(42, 156, 157);
+}
+.ContactUs form{
+    margin: 0 auto; 
+    text-align: center;
+}
+.ContactUs form input{
+    width: 30%;
+    padding: 1rem;
+    margin-bottom: 10px;
+    
+}
+.ContactUs form textarea{
+    width: 30%;
+    padding: 2rem 1rem;
+    border: 2px solid #D5D5D5;
+}
+.ContactUs h2{ 
+    font-size: 21px;
+    padding-bottom: 20px; 
+}
+.ContactUs button{ 
+    font-weight: bold;
+    padding: 8px 10px; 
+    margin-top: 30px;  
+    background-color: #f36273; 
+    border: 0; 
+}
