@@ -1,0 +1,36 @@
+.header__top {
+    display: flex;
+    background-color: #e26f7b;
+    color: white;
+    flex-direction: flex-start;
+    padding: 10px;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 50px 0;
+    width: 800px;
+    position: relative;
+    left: calc(50% - 400px);
+    top: calc(50% - 200px);
+    color: #f36273;
+    font-family: 'Pacifico';
+    font-size: 6rem;    
+    animation: blinker 10s linear infinite;
+    text-shadow: 0px 0px 21px #f36273;
+}
+
+.header-menu-bar .header-menu-bar__title {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: #e488a6;
+    font-weight: 600;
+}
+
+.header-menu-bar .header-menu-bar__icon {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}

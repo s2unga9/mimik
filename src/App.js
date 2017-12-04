@@ -15,9 +15,6 @@ const products = [
 ];
 
 
-
-
-
 class App extends Component {
   render() {
     return (
