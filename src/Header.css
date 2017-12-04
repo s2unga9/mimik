@@ -1,4 +1,4 @@
-.header-top {
+.header__top {
     display: flex;
     background-color: #e26f7b;
     color: white;
@@ -6,7 +6,7 @@
     padding: 10px;
 }
 
-.header-logo {
+.header__logo {
     display: flex;
     justify-content: center;
     padding: 100px 0 50px 0;
@@ -21,7 +21,7 @@
     text-shadow: 0px 0px 21px #f36273;
 }
 
-.header-menus .header-menu {
+.header-menu-bar .header-menu-bar__title {
     display: inline-flex;
     flex-wrap: wrap;
     padding: 20px;
@@ -29,8 +29,8 @@
     font-weight: 600;
 }
 
-.header-menus .header-icon {
+.header-menu-bar .header-menu-bar__icon {
     display: inline-flex;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 5px;
 }

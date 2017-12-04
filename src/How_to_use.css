@@ -1,0 +1,9 @@
+@charset "UTF-8";
+@import "reset.css";
+
+div{font-family: 'Open Sans', sans-serif;}
+h1{font-size: 27px; padding-bottom: 15px; color: #2a9c9d; text-align: center;}
+h2{font-size: 21px; text-align: center;}
+
+#mode-demploi .mode-demploi-text{ font-size: 17px; line-height: 23px; padding-top:25px;}
+#mode-demploi h2{ padding-bottom: 20px; }

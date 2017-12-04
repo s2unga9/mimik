@@ -4,7 +4,7 @@ import './App.css';
 import Header from './Header';
 import Product from './Product';
 import ContactUs from './ContactUs';
-
+import HowToUse from './How_to_use';
 
 
 const products = [
@@ -25,9 +25,10 @@ class App extends Component {
           <Product key={index} title={products.name} price={products.price} img_url={products.img_url} />
         )}
 
+        <HowToUse/>
         <ContactUs />
       </div>
-    );
+    )
   }
 }
 
